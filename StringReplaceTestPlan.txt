@@ -1,0 +1,36 @@
+TEST PLAN FOR STRING REPLACEMENT
+================================
+
+@author: nfalor
+
+Problem: Given a String and a Character, remove all instances of the Character in the String
+	
+Solutions:
+	- Iterate through the String, one character at a time
+	- Find a method in the String class that can solve this in one line
+	
+Java class to store separate methods for each solution
+	
+TestNG class to store each solution which tests these methods
+Use DataProvider for storing the test data which include both positive and negative cases for verifications
+
+Positive Test Case:
+
+Input String: "hello world"
+Character to remove: 'o'
+Expected Output: "hell wrld"
+
+Negative Test Case:
+
+Input String: null
+Character to remove: 'o'
+Expected Output: null
+
+TOOLS:
+
+Coding Language - Java
+Unit Test Framework - TestNG
+Repository - GitHub
+Build automation tool - Maven
+Run the TestNG test suite and generate test reports - TestNG SureFire
+IDE for developing the Framework - Eclipse
